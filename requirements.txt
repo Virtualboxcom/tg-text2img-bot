@@ -5,4 +5,4 @@ aiosqlite==0.20.0
 # 如需直接在服务器跑 Stable Diffusion，可加：
 # diffusers==0.30.0
 # torch==2.3.0
-# transformers==4.44.0
+# transformers==4.44.0 
